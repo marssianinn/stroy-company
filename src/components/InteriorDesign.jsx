@@ -9,7 +9,7 @@ export default function InteriorDesign() {
             </p>
             <div className="interior-image-wrapper">
                 <img
-                    src="../../public/assets/photo_2025-05-25_14-55-37.jpg"
+                    src="/assets/photo_2025-05-25_14-55-37.jpg"
                     alt="Дизайн интерьера здания Royal"
                 />
             </div>
