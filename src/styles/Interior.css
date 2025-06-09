@@ -1,0 +1,59 @@
+.interior-page {
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #f2f8ff, #eaf4fb);
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.interior-page h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    color: #003366;
+    background: linear-gradient(to right, #004080, #66aaff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.interior-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    background: #ffffffdd;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+}
+
+.interior-section:hover {
+    transform: scale(1.015);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.interior-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.interior-text h2 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.8rem;
+    color: #004080;
+}
+
+.interior-text p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.7;
+    text-align: justify;
+}
