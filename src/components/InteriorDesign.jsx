@@ -1,6 +1,9 @@
 import '../styles/InteriorDesign.css';
 
+
 export default function InteriorDesign() {
+
+    const img1 = "./assets/photo_2025-05-25_14-55-37.jpg"
     return (
         <section className="interior">
             <h2>Дизайн интерьера</h2>
@@ -9,7 +12,7 @@ export default function InteriorDesign() {
             </p>
             <div className="interior-image-wrapper">
                 <img
-                    src="/assets/photo_2025-05-25_14-55-37.jpg"
+                    src={img1}
                     alt="Дизайн интерьера здания Royal"
                 />
             </div>
